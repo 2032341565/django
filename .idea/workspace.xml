@@ -2,9 +2,517 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d49462e-86ec-41a1-a1a2-a0b13ffe9835" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.tx/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_ext/djangodocs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs-epub/epub-cover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs-epub/static/docicons-behindscenes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs-epub/static/docicons-note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs-epub/static/docicons-philosophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs-epub/static/docicons-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs-epub/static/epub.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs-epub/theme.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/genindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/modindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/console-tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/djangodocs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/docicons-behindscenes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/docicons-note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/docicons-philosophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/docicons-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/fontawesome/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/fontawesome/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/fontawesome/css/fa-brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/fontawesome/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/fontawesome/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/fontawesome/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/fontawesome/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/fontawesome/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/homepage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/static/reset-fonts-grids.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_theme/djangodocs/theme.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/contents.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/admin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/contributing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/general.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/help.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/install.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/models.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/troubleshooting.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/faq/usage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/glossary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/auth-remote-user.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/custom-file-storage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/custom-lookups.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/custom-management-commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/custom-model-fields.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/custom-template-tags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/deployment/checklist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/deployment/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/deployment/wsgi/apache-auth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/deployment/wsgi/gunicorn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/deployment/wsgi/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/deployment/wsgi/modwsgi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/deployment/wsgi/uwsgi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/error-reporting.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/initial-data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/jython.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/legacy-databases.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/outputting-csv.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/outputting-pdf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/overriding-templates.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/static-files/deployment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/static-files/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/upgrade-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/windows.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/howto/writing-migrations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/_images/triage_process.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/_images/triage_process.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/_images/triage_process.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/bugs-and-features.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/committing-code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/localizing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/new-contributors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/triaging-tickets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/writing-code/coding-style.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/writing-code/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/writing-code/javascript.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/writing-code/submitting-patches.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/writing-code/unit-tests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/writing-code/working-with-git.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/contributing/writing-documentation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/deprecation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/git.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/howto-release-django.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/mailing-lists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/organization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/release-process.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/internals/security.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin03t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin04t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin05t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin06t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin08t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin10t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin11t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin12t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin13t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/_images/admin14t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/contributing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/install.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/overview.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/reusable-apps.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/tutorial01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/tutorial02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/tutorial03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/tutorial04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/tutorial05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/tutorial06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/tutorial07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro/whatsnext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/man/django-admin.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/misc/api-stability.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/misc/design-philosophies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/misc/distributions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/misc/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/applications.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/checks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/base.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/flattened-index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/generic-date-based.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/generic-display.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/generic-editing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/mixins-date-based.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/mixins-editing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/mixins-multiple-object.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/mixins-simple.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/mixins-single-object.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/class-based-views/mixins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/clickjacking.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/_images/actions-as-modeladmin-methods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/_images/adding-actions-to-the-modeladmin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/_images/admin-actions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/_images/fieldsets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/_images/list_filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/_images/raw_id_fields.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/actions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/admindocs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/admin/javascript.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/auth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/contenttypes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/flatpages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/admin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/db-api.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/deployment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/feeds.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/forms-api.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/functions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/gdal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/geoip2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/geoquerysets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/geos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/install/geolibs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/install/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/install/postgis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/install/spatialite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/layermapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/measure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/model-api.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/ogrinspect.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/serializers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/sitemaps.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/testing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/tutorial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/gis/utils.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/humanize.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/messages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/aggregates.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/fields.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/forms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/functions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/indexes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/lookups.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/operations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/search.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/postgres/validators.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/redirects.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/sitemaps.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/sites.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/staticfiles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/contrib/syndication.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/csrf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/databases.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/django-admin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/exceptions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/files/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/files/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/files/storage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/files/uploads.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/forms/api.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/forms/fields.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/forms/formsets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/forms/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/forms/models.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/forms/renderers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/forms/validation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/forms/widgets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/middleware.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/migration-operations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/class.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/conditional-expressions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/constraints.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/database-functions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/expressions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/fields.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/indexes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/instances.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/lookups.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/meta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/options.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/querysets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/models/relations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/request-response.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/schema-editor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/settings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/signals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/template-response.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/templates/api.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/templates/builtins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/templates/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/templates/language.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/unicode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/urlresolvers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/utils.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/validators.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ref/views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/0.95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/0.96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.0-porting-guide.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.1.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.1.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.1.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.2.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.2.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.2.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.2.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.2.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.2.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.2.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.3.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.3.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.3.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.3.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.3.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.3.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.3.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/1.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.2.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/2.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/3.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/releases/security.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/spelling_wordlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/_images/postmortem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/_images/template-lines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/auth/customizing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/auth/default.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/auth/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/auth/passwords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/cache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/checks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/class-based-views/generic-display.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/class-based-views/generic-editing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/class-based-views/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/class-based-views/intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/class-based-views/mixins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/conditional-view-processing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/aggregation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/examples/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/examples/many_to_many.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/examples/many_to_one.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/examples/one_to_one.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/instrumentation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/managers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/models.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/multi-db.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/optimization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/queries.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/search.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/sql.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/tablespaces.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/db/transactions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/email.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/external-packages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/forms/formsets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/forms/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/forms/media.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/forms/modelforms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/_images/middleware.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/decorators.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/file-uploads.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/generic-views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/middleware.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/sessions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/shortcuts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/http/views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/i18n/formatting.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/i18n/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/i18n/timezones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/i18n/translation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/install.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/logging.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/migrations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/pagination.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/performance.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/security.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/serialization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/settings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/signals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/signing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/templates.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/testing/_images/django_unittest_classes_hierarchy.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/testing/_images/django_unittest_classes_hierarchy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/testing/_images/django_unittest_classes_hierarchy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/testing/advanced.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/testing/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/testing/overview.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/topics/testing/tools.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/django_bash_completion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/manage_translations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rpm-install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,76 +524,7 @@
     <favorites_list name="django" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE.python">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4032" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/setup.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.editorconfig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.eslintignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.eslintrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.hgignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,12 +560,7 @@
             <path>
               <item name="django" type="b2602c69:ProjectViewProjectNode" />
               <item name="django" type="462c0819:PsiDirectoryNode" />
-              <item name="js_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="django" type="b2602c69:ProjectViewProjectNode" />
               <item name="django" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,6 +570,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -390,16 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/manage_translations.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/rpm-install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js_tests/tests.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -461,7 +886,7 @@
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -472,10 +897,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/manage_translations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/rpm-install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
