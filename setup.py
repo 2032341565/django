@@ -11,7 +11,7 @@ REQUIRED_PYTHON = (3, 6)
 if CURRENT_PYTHON < REQUIRED_PYTHON:
     sys.stderr.write("""
 ==========================
-Unsupported Python version
+Unsupported Python versionpyt
 ==========================
 
 This version of Django requires Python {}.{}, but you're trying to
